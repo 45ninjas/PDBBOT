@@ -4,12 +4,13 @@
   "description": "pdb discord bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node.index.js"
   },
   "author": "WinglessWhistle",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.5.1",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "events": "^3.3.0"
   }
 }
